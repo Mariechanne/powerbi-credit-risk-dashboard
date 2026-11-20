@@ -1,0 +1,20 @@
+# ===========================================
+# Fichiers à ne pas envoyer sur GitHub
+# ===========================================
+
+# Environnement virtuel Python
+.venv/
+
+# Fichiers temporaires de Python
+__pycache__/
+*.pyc
+
+# Fichiers système de Windows
+Thumbs.db
+desktop.ini
+
+# -------------------------------------------
+# Données brutes LendingClub (trop lourdes)
+# -------------------------------------------
+data/raw/*
+!data/raw/.gitkeep
